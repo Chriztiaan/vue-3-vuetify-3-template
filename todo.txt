@@ -1,0 +1,11 @@
+[x] Vite
+[x] Vue 3
+[x] Typescript
+[x] Pinia
+[X] Vuetify
+[ ] Routing - Example
+[X] pnpm
+[X] vue-tsc
+[ ] Fix linting/prettier 
+[ ] Volar vuetify suggestions with kebab?
+[ ] Write up what each thing does`
