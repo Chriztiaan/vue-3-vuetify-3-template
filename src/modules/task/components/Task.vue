@@ -1,14 +1,14 @@
 <template>
     <div>
-        <v-card class="mb-4" variant="outlined" rounded="lg">
-            <v-card-item>
-                <div class="d-flex justify-space-between"> <!-- Flex explained at: https://vuetifyjs.com/en/styles/flex/ -->
-                    <div>
-                        {{ task.name }}
-                    </div>
-                    <div>{{ task.completed }}</div>
+        <v-card class="mb-4 pa-3" variant="outlined" rounded="lg" height="60" min-height="60">
+            <div class="d-flex justify-space-between align-center fill-height">
+                <!-- Flex explained at: https://vuetifyjs.com/en/styles/flex/ -->
+                <div :class="{ 'text-decoration-line-through': task.completed }">
+                    {{ task.name }}
                 </div>
-            </v-card-item>
+                <v-btn v-if="!task.completed" variant="outlined" class="text-capitalize"
+                    @click="$emit('complete')">Complete</v-btn>
+            </div>
         </v-card>
     </div>
 </template>
@@ -23,6 +23,10 @@ export default defineComponent({
             type: Object as PropType<Task>,
             required: true
         }
-    }
+    },
+    // Allows you to declare all the events of a component, parent components will have intellisense for all these declared events (via Volar)
+    emits: {
+        complete: null // No validation function (https://vuejs.org/guide/components/events.html#events-validation)
+    },
 });
 </script>

@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@mdi/font': ^7.1.96
   '@rushstack/eslint-patch': ^1.1.4
   '@types/jsdom': ^20.0.1
   '@types/node': ^18.11.12
@@ -28,6 +29,7 @@ dependencies:
   vuetify: 3.1.6_vue@3.2.47
 
 devDependencies:
+  '@mdi/font': 7.1.96
   '@rushstack/eslint-patch': 1.2.0
   '@types/jsdom': 20.0.1
   '@types/node': 18.14.0
@@ -302,6 +304,10 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@mdi/font/7.1.96:
+    resolution: {integrity: sha512-Imag6npmfkBDi2Ze2jiZVAPTDIKLxhz2Sx82xJ2zctyAU5LYJejLI5ChnDwiD9bMkQfVuzEsI98Q8toHyC+HCg==}
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
