@@ -3,11 +3,14 @@
 [x] Typescript
 [x] Pinia
 [X] Vuetify
-[ ] Routing - Example (Normal Vue router with glob)
+[X] Routing - Example (Normal Vue router with glob)
 [X] pnpm
 [X] vue-tsc
 [X] Finish todo
+[X] Table
+[ ] Setup snippets
 
+[ ] Extension list
 [ ] Need eslint rules for return type
 [ ] Fix linting/prettier 
 [ ] Volar vuetify suggestions with kebab?

@@ -5,7 +5,7 @@
             <v-progress-circular class="mt-8" :indeterminate="true" />
         </div>
         <div v-else class="d-flex flex-column">
-            <Task v-for="task in tasks" :key="task.uuid" :task="task" @complete="completeTask(task)" />
+            <task v-for="task in tasks" :key="task.uuid" :task="task" @complete="completeTask(task)" />
 
             <div class="d-flex align-center mt-2">
                 <v-text-field v-model="taskText" hide-details variant="outlined" density="compact"

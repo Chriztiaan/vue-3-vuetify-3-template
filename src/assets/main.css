@@ -5,3 +5,11 @@
 
   font-weight: normal;
 }
+
+.v-btn {
+  text-transform: capitalize !important;
+}
+
+.gap {
+  row-gap: 12px;
+}

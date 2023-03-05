@@ -6,8 +6,7 @@
                 <div :class="{ 'text-decoration-line-through': task.completed }">
                     {{ task.name }}
                 </div>
-                <v-btn v-if="!task.completed" variant="outlined" class="text-capitalize"
-                    @click="$emit('complete')">Complete</v-btn>
+                <v-btn v-if="!task.completed" variant="outlined" @click="$emit('complete')">Complete</v-btn>
             </div>
         </v-card>
     </div>
