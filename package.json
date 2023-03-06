@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@mdi/font": "^7.1.96",
+    "@pinia/testing": "^0.0.15",
     "@rushstack/eslint-patch": "^1.1.4",
     "@types/jsdom": "^20.0.1",
     "@types/node": "^18.11.12",

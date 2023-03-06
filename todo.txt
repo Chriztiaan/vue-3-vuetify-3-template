@@ -8,7 +8,9 @@
 [X] vue-tsc
 [X] Finish todo
 [X] Table
-[ ] Setup snippets
+[X] Vitest
+[ ] Links to each library
+
 
 [ ] Extension list
 [ ] Need eslint rules for return type
