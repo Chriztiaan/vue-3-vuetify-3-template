@@ -22,7 +22,7 @@ describe('purchasing flow', () => {
         taskService.retrieveTasks = async (): Promise<Task[]> => {
             expect(store.loading).toBeTruthy();
             return tasks;
-        }
+        };
         await store.requestTasks();
 
         expect(store.loading).toBeFalsy();
@@ -39,7 +39,7 @@ describe('purchasing flow', () => {
         // Monkey patch
         taskService.insertTask = async (task: Task): Promise<Task> => {
             return task;
-        }
+        };
         await store.addTask(task);
 
         expect(store.tasks).toHaveLength(1);
@@ -58,7 +58,7 @@ describe('purchasing flow', () => {
             expect(task.completed).toBeFalsy();
             task.completed = true;
             return task;
-        }
+        };
         await store.completeTask(task);
 
         expect(store.tasks).toHaveLength(1);

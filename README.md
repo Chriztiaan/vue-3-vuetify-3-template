@@ -13,8 +13,8 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
 1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
 ## Customize configuration
@@ -30,7 +30,7 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+npm run serve
 ```
 
 ### Type-Check, Compile and Minify for Production
@@ -50,3 +50,16 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+## Technology Stack:
+
+<li>Vue 3 - SPA framework</li>
+<li>Vite - Blazing fast(TM) SPA builder tool</li>
+<li>Typescript</li>
+<li>Vuetify 3 - Component library based on Material</li>
+<li>Pinia - State management library</li>
+<li>Vue Router 4 - Routing library to nagivate between pages and provide url metadata</li>
+<li>pnpm - Node package manager</li>
+<li>Vitest - Vite based testing library used for unit and component tests</li>
+<li>Volar configuration - IDE support for Vue in VS Code</li>
+<li>Vue-tsc - Volar based command line typechecking for Vue</li>

@@ -22,7 +22,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { Task as TaskModel } from '../models/task';
-import { useTaskStore } from '../stores/todoStore';
+import { useTaskStore } from '../stores/taskStore';
 import Task from './Task.vue';
 
 export default defineComponent({
@@ -44,7 +44,7 @@ export default defineComponent({
     data() {
         return {
             taskText: ""
-        }
+        };
     },
     methods: {
         addTask(): void {
@@ -56,5 +56,5 @@ export default defineComponent({
             useTaskStore().completeTask(task);
         }
     }
-})
+});
 </script>

@@ -11,5 +11,5 @@ import TaskList from './components/TaskList.vue';
 
 export default defineComponent({
     components: { TaskList }
-})
+});
 </script>

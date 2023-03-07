@@ -9,11 +9,9 @@
 [X] Finish todo
 [X] Table
 [X] Vitest
-[ ] Links to each library
+[X] Links to each library
 
 
-[ ] Extension list
+[X] Extension list
 [ ] Need eslint rules for return type
 [ ] Fix linting/prettier 
-[ ] Volar vuetify suggestions with kebab?
-[ ] Write up what each thing does (libraries and commands)

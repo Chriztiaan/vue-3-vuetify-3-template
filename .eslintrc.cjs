@@ -10,10 +10,12 @@ module.exports = {
         '@vue/eslint-config-typescript'
     ],
     parserOptions: {
-        ecmaVersion: 'latest'
+        "sourceType": "module",
+        "ecmaVersion": 'latest'
     },
     rules: {
-        semi: [2, 'never'],
+        semi: [2, 'always'],
         eqeqeq: [0, 'never'],
+        "vue/multi-word-component-names": 'off'
     }
 };

@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue';
 
 export default defineComponent({
     data() {
@@ -112,7 +112,7 @@ export default defineComponent({
                     iron: '22',
                 },
             ],
-        }
+        };
     }
-})
+});
 </script>

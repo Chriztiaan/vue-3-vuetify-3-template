@@ -8,7 +8,7 @@ class TaskService {
         // 3. Return the result.
         await delay(); // Pretending to make a request, waiting for it to complete 
 
-        const tasks = [new Task("Write template app", true), new Task("Become rich", false)] // Pretending to tanslate results
+        const tasks = [new Task("Write template app", true), new Task("Become rich", false)]; // Pretending to tanslate results
 
         return tasks;
     }
