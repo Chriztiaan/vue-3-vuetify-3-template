@@ -30,9 +30,6 @@ import { routes } from '@/plugins/router';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    mounted() {
-        console.log(routes);
-    },
     computed: {
         activeRouteName(): string {
             return this.$route.name?.toString() || '';
