@@ -10,6 +10,7 @@
 [X] Table
 [X] Vitest
 [X] Links to each library
+[ ] Storybook
 
 
 [X] Extension list
