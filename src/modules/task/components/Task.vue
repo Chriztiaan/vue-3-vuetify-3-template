@@ -3,7 +3,7 @@
         <v-card class="mb-4 pa-3" variant="outlined" rounded="lg" height="60" min-height="60">
             <div class="d-flex justify-space-between align-center fill-height">
                 <!-- Flex explained at: https://vuetifyjs.com/en/styles/flex/ -->
-                <div :class="{ 'text-decoration-line-through': task.completed }">
+                <div :class="{ 'text-decoration-line-through': task.moo }">
                     {{ task.name }}
                 </div>
                 <v-btn v-if="!task.completed" variant="outlined" @click="$emit('complete')">Complete</v-btn>

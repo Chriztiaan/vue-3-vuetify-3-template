@@ -4,7 +4,7 @@ import { taskService } from '../services/taskService';
 import { useTaskStore } from '../stores/taskStore';
 
 
-describe('purchasing flow', () => {
+describe('xx', () => {
     const store = useTaskStore();
 
     beforeEach(() => {
