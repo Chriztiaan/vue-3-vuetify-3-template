@@ -7,7 +7,6 @@ import { piniaPlugin } from './plugins/pinia';
 import { vuetifyPlugin } from './plugins/vuetify';
 import { routerPlugin } from './plugins/router';
 
-
 const app = createApp(App);
 
 app.use(piniaPlugin);
