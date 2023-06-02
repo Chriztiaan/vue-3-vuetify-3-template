@@ -1,0 +1,32 @@
+{
+	"files.eol": "\n",
+	"editor.formatOnSave": true,
+	"eslint.autoFixOnSave": true,
+	"prettier.disableLanguages": [],
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{
+			"language": "vue",
+			"autoFix": true
+		},
+		"typescript",
+		"typescriptreact"
+	],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.insertSpaces": true,
+	"editor.tabSize": 4,
+	"volar.completion.preferredTagNameCase": "kebab",
+	"volar.completion.normalizeComponentImportName": true
+}
